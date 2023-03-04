@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: httpd
-    repoURL: https://github.com/virtapp/deployment.git
+    repoURL: https://github.com/virtapp/terraform-argocd-deployment.git
     targetRevision: HEAD
   syncPolicy:
     automated:
