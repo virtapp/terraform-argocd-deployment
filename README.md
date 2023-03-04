@@ -7,8 +7,8 @@ Kubernetes in Docker with Terraform and ArgoCD
 
 🎯 About
 
-This project is a simple example of how to use Terraform to create a Kubernetes cluster in Docker using Kind.
-🚀 Technologies
+This project is a simple example of how to use Terraform to create a Kubernetes cluster in Docker using Kind
+
 
 The following tools were used in this project:
 
@@ -17,14 +17,12 @@ The following tools were used in this project:
     Docker
     
 
-Connect to ArgoCD
-Get ArgoCD admin password
 
-kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+Connect to ArgoCD:
+    Get ArgoCD admin password
 
-Connect to ArgoCD
+    kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+    Port forward ArgoCD to http://localhost:8080
+    kubectl port-forward -n argocd service/argocd-server --address 0.0.0.0 8080:80
 
-Port forward ArgoCD to http://localhost:8080
-
-kubectl port-forward -n argocd service/argocd-server --address 0.0.0.0 8080:80
 
