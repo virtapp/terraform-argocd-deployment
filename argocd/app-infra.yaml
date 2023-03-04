@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: charts/infra/postgresql-ha
-    repoURL: https://github.com/virtapp/local-deployment.git
+    repoURL: https://github.com/virtapp/terraform-argocd-deployment.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
@@ -35,7 +35,7 @@ spec:
       - name: rootUser.password
         value: "fuko09phsurxho"
     path: charts/infra/mariadb-galera
-    repoURL: https://github.com/virtapp/local-deployment.git
+    repoURL: https://github.com/virtapp/terraform-argocd-deployment.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
@@ -54,7 +54,7 @@ spec:
   project: default
   source:
     path: charts/infra/nexus
-    repoURL: https://github.com/virtapp/local-deployment.git
+    repoURL: https://github.com/virtapp/terraform-argocd-deployment.git
     targetRevision: HEAD
   syncPolicy:
     automated: {}
