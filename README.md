@@ -19,6 +19,7 @@ The following tools were used in this project:
 
 
 Connect to ArgoCD:
+
     Get ArgoCD admin password
 
     kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
