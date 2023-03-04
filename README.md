@@ -1,7 +1,7 @@
-![image](https://user-images.githubusercontent.com/23049337/221376202-40474f94-3a65-4f9f-b8e3-85dabef15e67.png)
+![image](https://user-images.githubusercontent.com/23049337/222911432-63630d1e-1ad2-4a9b-9fa2-a0f532fd7f00.png)
 
  
-Kubernetes in Docker with Terraform
+Kubernetes in Docker with Terraform and ArgoCD
 
 
 
